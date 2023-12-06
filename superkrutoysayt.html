@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function subscribe() {
+            var email = document.getElementById("email").value;
+            
+            if (email) {
+                alert("Спасибо за подписку на наши обновления!");
+            } else {
+                alert("Пожалуйста, введите вашу электронную почту.");
+            }
+        }
+    function greet() { 
+        var name = prompt("Введите ваше имя:"); 
+        alert("Привет, " + name + "!"); 
+    } 
+</script>
+  <title>Скарлетт Йоханссон</title> 
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div id="subscription-container">
+    <h3>Подписка на обновления</h3>
+    <input type="email" id="email" placeholder="Введите вашу электронную почту"><br>
+    <button id="subscribe-btn" onclick="subscribe()">Подписаться</button>
+</div>
+  <header>
+    <h2>Скарлетт Йоханссон</h2>
+  </header>
+  <img src="css/img/WIFE.jpg" width="140" height="200" alt="Моя фотография">
+  <button onclick="greet()">Нажмите</button>
+  <section id="biography">
+    <h2>Биография</h2>
+    <p class="stroke">Скарлетт Ингрид Йоханссон родилась 22 ноября 1984 года в Нью-Йорке. Стала известной после ролей в фильмах «Оставленные»,</p> 
+    <p class="stroke">«Прекрасное» и «Северное сияние». За свою карьеру она была номинирована на множество престижных наград и получила несколько наград, включая премию BAFTA и «Золотой глобус»</p>
+    <p class="stroke">Она американская актриса и певица.</p> <p  class="stroke">Чтобы посмотреть больше информации о ней вы можете посетить <a href=https://ru.wikipedia.org/wiki/Йоханссон,_Скарлетт>Википедия</a>.</p>
+
+  </section>
+  <section id="filmography">
+    <h2>Фильмография</h2>
+    <ul>
+      <li class="stroke">2006 – «Сенсация»</li>
+      <li class="stroke">2007 – «Дневники няни»</li>
+      <li class="stroke">2008 – «Еще одна из рода Болейн»</li>
+      <li class="stroke">2010 – «Железный человек»</li>
+      <li class="stroke">2011 – «Мы купили зоопарк»</li>
+      <li class="stroke">2012 – «Мстители»</li>
+      <li class="stroke">2013 – «Она»</li>
+      <li class="stroke">2014 – «Люси»</li>
+      <li class="stroke">2015 – «Мстители: Эра Альтрона»</li>
+      <li class="stroke">2016 – «Первый мститель: Противостояние»</li>
+      <li class="stroke">2017 – «Призрак в доспехах»</li>
+      <li class="stroke">2018 – «Мстители: Война бесконечности»</li>
+      <li class="stroke">2019 – «Брачная история», «Кролик ДжоДжо»</li>
+      <li class="stroke">2021 – «Черная вдова» </li>
+    </ul>
+  </section>
+
+  <section id="awards">
+    <h2>Награды</h2>
+    <ul>
+      <li1 class="stroke">Премия BAFTA, Лучшая актриса (2004)</li1>
+      <li1 class="stroke" >Золотой глобус, Лучшая актриса второго плана, Британская академия, Премия Гильдии актеров (2020)</li1>
+      <li1 class="stroke" >Награда Академии, Номинация в категории Лучшая актриса, Сезар, Сатурн (2014)</li1>
+      <li1 class="stroke">Премия канала «MTV», 2022 год</li1>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Галерея</h2>
+    <img src="css/img/scar.jpg" width="120" height="170 alt="Scarlett Johansson 1">  
+    <img src="css/img/ВАЙФУ.jpg" width="110" height="170 alt="Scarlett Johansson 2">  
+    <img src="css/img/жена.jpg" width="110" height="170 alt="Scarlett Johansson 3">
+    <img src="css/img/скарлетт.jpg" width="125" height="170 alt="Scarlett Johansson 4">  
+    <img src="css/img/scarlett.jpg" width="115" height="170 alt="Scarlett Johansson 5">  
+    <img src="css/img/любимая.jpg" width="115" height="170 alt="Scarlett Johansson 6">   
+  </section>
+  <footer>
+    <p><big>&copy; 2023 Сайт о Скарлетт Йоханссон</big></p>
+  </footer>
+</body>
+</html>
+
+
